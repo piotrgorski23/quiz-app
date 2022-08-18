@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Simple Quiz Project</title>
+</head>
+
+<body>
+    <!-- Top section -->
+    <div class="intro py-3 bg-body text-center">
+        <div class="container">
+            <h2 class="text-primary">
+                Simple Quiz - Video Games
+            </h2>
+        </div>
+    </div>
+
+    <!-- result section -->
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container lead">
+            <p>You achieved <span class="text-primary display-4 p-3">0%</span> score</p>
+        </div>
+    </div>
+
+    <!-- Quiz Section -->
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h3 class="my-5 text-white text-center">Questions about video games...</h3>
+            <p class="my-2 text-white text-center">
+                The correct answer will give you one point for the overall score.
+                <br>
+                Incorrect answer will subtract a point from your overall score.
+            </p>
+            <form class="quiz-form text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        1. Who developed Deadly Premonition?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="A">
+                        <label class="form-check-label">CD Projekt</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="B">
+                        <label class="form-check-label">Capcom</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="C">
+                        <label class="form-check-label">Kojima Productions</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="D">
+                        <label class="form-check-label">Access Games</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        2. In what game for the first time does Pikachu appear?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="A">
+                        <label class="form-check-label">Pokemon</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="B">
+                        <label class="form-check-label">The Legend of Zelda</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="C">
+                        <label class="form-check-label">Pikmin</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="D">
+                        <label class="form-check-label">Pou</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        3. Who developed Uncharted 3: The Drake's Deception?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="A">
+                        <label class="form-check-label">Techland</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="B">
+                        <label class="form-check-label">Naughty Dog</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="C">
+                        <label class="form-check-label">Konami</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="D">
+                        <label class="form-check-label">Treyarch</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        4. Who was the protagonist of Witcher 2: Assassins of Kings
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="A">
+                        <label class="form-check-label">Altaïr Ibn-La'Ahad </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="B">
+                        <label class="form-check-label">Nathan Drake</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="C">
+                        <label class="form-check-label">Geralt of Rivia</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="D">
+                        <label class="form-check-label">Leon S. Kennedy</label>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <input type="submit" class="btn btn-light" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./assets/scripts.js"></script>
+</body>
+
+</html>
