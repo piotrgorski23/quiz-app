@@ -18,6 +18,6 @@ Project is created with:
 ## Setup
 To run this project you can do it in two ways.
 
-The first way is to click on this [link](https://quiz-app-piotrgorski23.vercel.app/).
+
 
 The other way is to download the whole project and run it in your browser.
